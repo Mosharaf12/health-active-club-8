@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Reovery Run",
+    "img": "https://www.triathlete.com/wp-content/uploads/2019/10/recoveryrun.jpg",
+    "id": 1,
+    "description": "A recovery run is a form of active recovery for runners that involves easy runs at a shorter distance or slower pace than usual"
+  },
+  {
+    "name": "Base Run",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEIJw7n1mrBX2G8ATzykHW254PPeqeYvsBg&usqp=CAU",
+    "id": 2,
+    "description": "A base run is a relatively short to moderate-length run undertaken at a runner's natural pace"
+  },
+  {
+    "name": "Long Run",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkiKjF-ZKgb9UduboIUVyeGS7UD85wm3ETLA&usqp=CAU",
+    "id": 3,
+    "description": "The long run refers to a period of time where all factors of production and costs are variable."
+  },
+  {
+    "name": "Progression Run",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcA2DLWhrA3FDHdjiAo62clwxiuL4bwQWuPA&usqp=CAU",
+    "id": 4,
+    "description": "Progression running is a type of speed work that involves beginning a run at a comfortable, slow pace and ending the run at a faster pace"
+  },
+  {
+    "name": "Fartlek Run",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydOFssnjQyy_ahqmOIAj4hwAJHKnUMiZu0g&usqp=CAU",
+    "id": 5,
+    "description": "Fartlek running involves varying your pace throughout your run, alternating between fast segments and slow jog"
+  },
+  {
+    "name": "Tempo Run",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUArdtRapHY3rqPm7-FWNJeOdsg-TpBvmwg&usqp=CAU",
+    "id": 6,
+    "description": " A tempo run is a sustained effort run that builds up your body's ability to run faster for longer periods of time"
+  }
+]
