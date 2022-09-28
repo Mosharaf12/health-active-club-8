@@ -1,8 +1,8 @@
 .header{
     display: flex;
     align-items: center;
-    padding-left: 160px;
-    margin-top: 80px;
+    padding-left: 130px;
+    margin-top: 60px;
 
 }
 .header .header-text{
@@ -15,5 +15,10 @@
 .header img{
     width: 100px;
     height: 100px;
+
+}
+.daily-active{
+    padding-left: 130px;
+    
 
 }
