@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import Swal from 'sweetalert2'
 
 
 const Cart = ({cart,}) => {
+
 
     let total =0;
     for(const game of cart){
@@ -19,6 +20,16 @@ const Cart = ({cart,}) => {
         }
     }
   
+    const [breakTime, setBreakTime] = useState('')
+
+    const clickAddBreak = (breakTime) => {
+        localStorage.setItem('break-item', breakTime);
+        setBreakTime(breakTime);
+    }
+    useEffect(() => {
+        const localData = localStorage.getItem('break-item');
+        setBreakTime(localData)
+    }, [])
    
     
     return (
@@ -44,16 +55,16 @@ const Cart = ({cart,}) => {
 
                 </div>
                 <div className='btn-mint'>
-                    <button >
+                    <button onClick={()=>clickAddBreak(10)}>
                         <p>10 <small>min</small></p>
                     </button>
-                    <button>
+                    <button onClick={()=>clickAddBreak(20)}>
                         <p>20 <small>min</small></p>
                     </button>
-                    <button>
+                    <button onClick={()=>clickAddBreak(30)}>
                         <p>30 <small>min</small></p>
                     </button>
-                    <button>
+                    <button onClick={()=>clickAddBreak(40)}>
                         <p>40 <small>min</small></p>
                     </button>
                    
@@ -69,7 +80,7 @@ const Cart = ({cart,}) => {
                     
                 </div>
                 <div className='break-field'>
-                   <h4> Break Time:</h4>
+                   <h4> Break Time: {breakTime} <small>min</small></h4>
                 </div>
              </div>
              <button onClick={completed}  className='btn-complete'>
