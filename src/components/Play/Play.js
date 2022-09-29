@@ -5,6 +5,7 @@ import Cart from '../Cart/Cart';
 
 const Play = () => {
     const [games,setGames]=useState([]);
+    const [cart,setCart]=useState([])
     useEffect(()=>{
         fetch(`health.json`)
         .then(res=>res.json())
@@ -12,6 +13,8 @@ const Play = () => {
     },[])
     const addToList=(game)=>{
         console.log(game)
+        const newCart=[...cart,game];
+        setCart(newCart);
     }
     return (
         <div className='play-container'>
@@ -26,7 +29,7 @@ const Play = () => {
 
             </div>
             <div className="cart-container">
-               <Cart></Cart>
+               <Cart cart={cart}></Cart>
 
             </div>
             

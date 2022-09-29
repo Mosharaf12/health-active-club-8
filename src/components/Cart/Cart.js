@@ -1,7 +1,11 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = ({cart}) => {
+    let total =0;
+    for(const game of cart){
+        total = total + game.time;
+    }
     return (
         <div>
              <div className='cart'>
@@ -46,11 +50,11 @@ const Cart = () => {
                     <h3>Exercise Details</h3>
                 </div>
                 <div className='exercise-field'>
-                    Exercise Time :<input className='exercise' type="text" placeholder='Exercise Times' />
-
+                    <h4>Exercise Time: {total} <small>min</small></h4>
+                    
                 </div>
                 <div className='break-field'>
-                    Break Time:<input className='time' type="text" placeholder="Break Time"></input>
+                   <h4> Break Time: </h4>
                 </div>
              </div>
              <button className='btn-complete'>

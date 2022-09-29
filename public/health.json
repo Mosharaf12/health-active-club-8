@@ -4,7 +4,7 @@
     "img": "https://www.triathlete.com/wp-content/uploads/2019/10/recoveryrun.jpg",
     "id": 1,
     "Running":"4 miles",
-    "time": "120",
+    "time": 120,
     "description": "A recovery run is a form of active recovery for runners that involves easy runs at a shorter distance or slower pace than usual"
   },
   {
@@ -12,7 +12,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuEIJw7n1mrBX2G8ATzykHW254PPeqeYvsBg&usqp=CAU",
     "id": 2,
     "Running":"6 miles",
-    "time": "150",
+    "time": 150,
     "description": "A base run is a relatively short to moderate-length run undertaken at a runner's natural pace"
   },
   {
@@ -20,7 +20,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkiKjF-ZKgb9UduboIUVyeGS7UD85wm3ETLA&usqp=CAU",
     "id": 3,
     "Running":"15 miles",
-    "time": "280",
+    "time": 280,
     "description": "The long run refers to a period of time where all factors of production and costs are variable."
   },
   {
@@ -28,7 +28,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcA2DLWhrA3FDHdjiAo62clwxiuL4bwQWuPA&usqp=CAU",
     "id": 4,
     "Running":"5 miles",
-    "time": "150",
+    "time": 150,
     "description": "Progression running is a type of speed work that involves beginning a run at a comfortable"
   },
   {
@@ -36,7 +36,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydOFssnjQyy_ahqmOIAj4hwAJHKnUMiZu0g&usqp=CAU",
     "id": 5,
     "Running":"6 miles",
-    "time": "180",
+    "time": 180,
     "description": "Fartlek running involves varying your pace throughout your run, alternating between fast segments and slow jog"
   },
   {
@@ -44,7 +44,7 @@
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUArdtRapHY3rqPm7-FWNJeOdsg-TpBvmwg&usqp=CAU",
     "id": 6,
     "Running":"1 miles",
-    "time": "30",
+    "time": 30,
     "description": " A tempo run is a sustained effort run that builds up your body's ability to run faster for longer periods of time"
   }
 ]

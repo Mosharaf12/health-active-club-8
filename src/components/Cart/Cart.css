@@ -30,6 +30,9 @@
 }
 .exercise-field{
     margin-bottom: 15px;
+    background-color: antiquewhite;
+    padding:2px 10px;
+    border-radius: 7px;
 }
 .exercise{
     border: none;
@@ -39,6 +42,9 @@
 }
 .break-field{
     margin-bottom: 25px;
+    background-color: antiquewhite;
+    padding:2px 10px;
+    border-radius: 7px;
 }
 .time{
     border: none;
