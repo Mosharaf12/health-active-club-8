@@ -24,3 +24,36 @@
 .break-text{
     padding-left:15px;
 }
+.input-field{
+    padding-left: 15px;
+    margin: 10px;
+}
+.exercise-field{
+    margin-bottom: 15px;
+}
+.exercise{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.break-field{
+    margin-bottom: 25px;
+}
+.time{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.btn-complete{
+    width: 100%;
+    background-color: rgb(242, 191, 125);
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    color: white;
+}
+.btn-complete:hover{
+    background-color: orange;
+}

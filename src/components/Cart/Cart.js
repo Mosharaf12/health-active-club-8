@@ -41,6 +41,23 @@ const Cart = () => {
 
                 </div>
              </div>
+             <div className='input-field'>
+                <div>
+                    <h3>Exercise Details</h3>
+                </div>
+                <div className='exercise-field'>
+                    Exercise Time :<input className='exercise' type="text" placeholder='Exercise Times' />
+
+                </div>
+                <div className='break-field'>
+                    Break Time:<input className='time' type="text" placeholder="Break Time"></input>
+                </div>
+             </div>
+             <button className='btn-complete'>
+                <p>Activity Completed</p>
+             </button>
+            
+             
         </div>
     );
 };
