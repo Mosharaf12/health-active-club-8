@@ -1,11 +1,26 @@
 import React from 'react';
 import './Cart.css'
+import Swal from 'sweetalert2'
 
-const Cart = ({cart}) => {
+
+const Cart = ({cart,}) => {
+
     let total =0;
     for(const game of cart){
         total = total + game.time;
     }
+    const completed=()=>{
+        if(completed){
+            console.log(Swal.fire(
+                'Good job!',
+                'You clicked the button!',
+                'success'
+              ))
+        }
+    }
+  
+   
+    
     return (
         <div>
              <div className='cart'>
@@ -29,7 +44,7 @@ const Cart = ({cart}) => {
 
                 </div>
                 <div className='btn-mint'>
-                    <button>
+                    <button >
                         <p>10 <small>min</small></p>
                     </button>
                     <button>
@@ -54,10 +69,10 @@ const Cart = ({cart}) => {
                     
                 </div>
                 <div className='break-field'>
-                   <h4> Break Time: </h4>
+                   <h4> Break Time:</h4>
                 </div>
              </div>
-             <button className='btn-complete'>
+             <button onClick={completed}  className='btn-complete'>
                 <p>Activity Completed</p>
              </button>
             

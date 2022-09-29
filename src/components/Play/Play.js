@@ -16,6 +16,7 @@ const Play = () => {
         const newCart=[...cart,game];
         setCart(newCart);
     }
+   
     return (
         <div className='play-container'>
             <div className="details-container">
