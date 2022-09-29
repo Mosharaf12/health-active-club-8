@@ -1,7 +1,7 @@
 .header{
     display: flex;
     align-items: center;
-    padding-left: 130px;
+    padding-left:80px;
     margin-top: 40px;
 
 }
@@ -18,7 +18,7 @@
 
 }
 .daily-active{
-    padding-left: 130px;
+    padding-left: 80px;
     
 
 }

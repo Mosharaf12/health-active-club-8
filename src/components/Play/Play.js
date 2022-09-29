@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Play.css'
 import Player from '../Player/Player';
+import Cart from '../Cart/Cart';
 
 const Play = () => {
     const [games,setGames]=useState([]);
@@ -9,6 +10,9 @@ const Play = () => {
         .then(res=>res.json())
         .then(data=>setGames(data))
     },[])
+    const addToList=(game)=>{
+        console.log(game)
+    }
     return (
         <div className='play-container'>
             <div className="details-container">
@@ -16,12 +20,13 @@ const Play = () => {
                 games.map(game=> <Player 
                     key={game.id}
                     game={game}
+                    addToList={addToList}
                     ></Player>)
                }
 
             </div>
             <div className="cart-container">
-                <h2>cart</h2>
+               <Cart></Cart>
 
             </div>
             
