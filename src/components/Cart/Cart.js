@@ -26,16 +26,16 @@ const Cart = () => {
                 </div>
                 <div className='btn-mint'>
                     <button>
-                        <p>10 <small>mint</small></p>
+                        <p>10 <small>min</small></p>
                     </button>
                     <button>
-                        <p>20 <small>mint</small></p>
+                        <p>20 <small>min</small></p>
                     </button>
                     <button>
-                        <p>30 <small>mint</small></p>
+                        <p>30 <small>min</small></p>
                     </button>
                     <button>
-                        <p>40 <small>mint</small></p>
+                        <p>40 <small>min</small></p>
                     </button>
                    
 
